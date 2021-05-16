@@ -1,0 +1,55 @@
+<div class="d-none d-sm-block">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card text-white bg-primary">
+                <div class="card-header">Active</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card-title">Total</div>
+                            <div class="card-text">{{$ctrl.covid.activeCases}}</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-title">New</div>
+                            <div class="card-text">{{$ctrl.covid.activeCasesNew}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-success">
+                <div class="card-header">Recovered</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card-title">Total</div>
+                            <div class="card-text">{{$ctrl.covid.recovered}}</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-title">New</div>
+                            <div class="card-text">{{$ctrl.covid.recoveredNew}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-danger">
+                <div class="card-header">Deaths</div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card-title">Total</div>
+                            <div class="card-text">{{$ctrl.covid.deaths}}</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-title">New</div>
+                            <div class="card-text">{{$ctrl.covid.deathsNew}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
